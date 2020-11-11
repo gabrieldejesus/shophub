@@ -5,7 +5,7 @@ import { Header } from '@/styles/pages/Home';
 import { Container } from '@/styles/pages/Home';
 import Logo from '@/components/Logo';
 import Cart from '@/components/Cart';
-import Search from '@/components/Search';
+import Basket from '@/components/Basket';
 import SEO from '@/components/SEO';
 import { client } from '@/lib/prismic';
 import Prismic from 'prismic-javascript';
@@ -32,6 +32,7 @@ export default function Home({ recommendedProducts }: HomeProps) {
             <ul>
               <li className="active">Início</li>
               <li>Ofertas</li>
+              <li><Link href={`/search`}><a>Pesquisar</a></Link></li>
               <li>Blog</li>
               <li>Contato</li>
             </ul>
@@ -66,6 +67,11 @@ export default function Home({ recommendedProducts }: HomeProps) {
                           />
                           <span>{PrismicDOM.RichText.asText(recommendedProduct.data.title)}</span>
                           R$ {recommendedProduct.data.price}
+                          
+                          <div className="price-and-buy">
+                            <div className="buy"><Basket/>Comprar</div>
+                          </div>
+
                         </a>
                       </Link>
                     </li>
@@ -73,7 +79,6 @@ export default function Home({ recommendedProducts }: HomeProps) {
                 })}
               </ul>
             </div>
-
           </div>
         </Container>
       </section>

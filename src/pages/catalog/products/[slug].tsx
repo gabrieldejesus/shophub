@@ -5,7 +5,9 @@ import PrismicDOM from 'prismic-dom';
 import { Container } from '@/styles/pages/Home';
 import { Title } from '@/styles/pages/Product';
 import { Header } from '@/styles/pages/Home';
+import Link from 'next/link';
 import Logo from '@/components/Logo';
+import Basket from '@/components/Basket';
 import Cart from '@/components/Cart';
 import { Document } from 'prismic-javascript/types/documents';
 
@@ -29,6 +31,7 @@ export default function Product({ product }: ProductProps) {
             <ul>
               <li>Início</li>
               <li className="active">Ofertas</li>
+              <li><Link href={`/search`}><a>Pesquisar</a></Link></li>
               <li>Blog</li>
               <li>Contato</li>
             </ul>
@@ -58,7 +61,7 @@ export default function Product({ product }: ProductProps) {
               {/* preço do produto */}
               <div className="price-and-buy">
                 <span>${product.data.price}</span>
-                <div className="buy">Comprar</div>
+                <div className="buy"><Basket/>Comprar</div>
               </div>
 
             </div>

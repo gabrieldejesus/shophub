@@ -30,7 +30,6 @@ export default createGlobalStyle`
     }
 
     a {
-        color: var(--purple);
         text-decoration: none;
     }
 
@@ -45,8 +44,13 @@ export default createGlobalStyle`
         margin-right: 30px;
     }
 
-    header .menu ul li:hover {
+    header .menu ul li:hover,
+    header .menu ul li a:hover {
         color: var(--orange);
+    }
+
+    header .menu ul li a {
+        color: var(--black);
     }
 
     header .cart img {
@@ -96,7 +100,6 @@ export default createGlobalStyle`
 
     .container-products ul li {
         width: 320px;
-        heigth: 367px;
         padding: 40px;
         display: flex;
         justify-content: center;
@@ -117,6 +120,7 @@ export default createGlobalStyle`
     .container-products ul li a {
         display: flex;
         align-items: center;
+        color: var(--purple);
         justify-content: center;
         flex-direction: column;
         font-size: 28px;
@@ -124,13 +128,13 @@ export default createGlobalStyle`
     }
 
     .container-products ul li a span {
-        font-size: 30px;
+        font-size: 28px;
         font-weight: 700;
         padding: 20px 0px 10px 0px;
     }
 
     .container-products img {
-        max-width: 300px;
+        max-width: 250px;
     }
 
     section .product {
@@ -146,21 +150,22 @@ export default createGlobalStyle`
     section .product .description p {
         font-size: 18px;
         font-weight: 400;
+        padding-right: 35px;
     }
 
-    section .product .price-and-buy {
+    .price-and-buy {
         display: flex;
         align-items: center;
         margin-top: 23px;
     }
 
-    section .product .price-and-buy span {
+    .price-and-buy span {
         font-size: 30px;
         font-weight: 700;
         margin-right: 30px;
     }
 
-    section .product .price-and-buy .buy {
+    .price-and-buy .buy {
         cursor: pointer;
         width: 166px;
         height: 50px;
@@ -172,6 +177,14 @@ export default createGlobalStyle`
         font-size: 20px;
         font-weight: 700;
         background-color: var(--orange);
+    }
+
+    .price-and-buy .buy:hover {
+        transform:scale(1.1);
+    }
+
+    .price-and-buy img {
+        margin-right: 10px;
     }
 
     @media (max-width:1208px) {
