@@ -31,8 +31,8 @@ export default function SEO({
             <meta httpEquiv="x-ua-compatible" content="IE=edge,chrome=1" />
             <meta name="MobileOptimized" content="320" />
             <meta name="HandheldFriendly" content="True" />
-            <meta name="theme-color" content="#121214" />
-            <meta name="msapplication-TileColor" content="#121214" />
+            <meta name="theme-color" content="#FFEBC1" />
+            <meta name="msapplication-TileColor" content="#FFEBC1" />
             <meta name="referrer" content="no-referrer-when-downgrade" />
             <meta name="google" content="notranslate" />
 
@@ -50,8 +50,8 @@ export default function SEO({
 
             <meta name="twitter:title" content={pageTitle} />
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:site" content="@rocketseat" />
-            <meta name="twitter:creator" content="@rocketseat" />
+            <meta name="twitter:site" content="@devgabrieldejesus" />
+            <meta name="twitter:creator" content="@devgabrieldejesus" />
             <meta name="twitter:image" content={pageImage} />
             <meta name="twitter:image:src" content={pageImage} />
             <meta name="twitter:image:alt" content="Thumbnail" />
