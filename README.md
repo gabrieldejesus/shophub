@@ -1,105 +1,73 @@
-_English_
-
 # ShopHub
 
 👕 A small store with some registered products that I made to exercise my new knowledge with nextjs.
 
-`Web preview`
 ![](public/web-preview.gif)
 
-## 🕹 Deployment in
+<p align="center">
+  <img alt="PRs welcome!" src="https://img.shields.io/static/v1?label=PRs&message=WELCOME&style=for-the-badge&color=FDA912&labelColor=222222" />
+     
+   <img alt="Stars" src="https://img.shields.io/github/stars/gabrieldejesus/shophub?color=FDA912&label=STARS&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+   <img alt="Forks" src="https://img.shields.io/github/forks/gabrieldejesus/shophub?color=FDA912&label=FORKS&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+   <img alt="Issues" src="https://img.shields.io/github/issues/gabrieldejesus/shophub?color=FDA912&label=ISSUES&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+   <img alt="GitHub license" src="https://img.shields.io/github/license/gabrieldejesus/shophub?color=FDA912&label=LICENSE&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+
+  <a href="https://github.com/gabrieldejesus">
+    <img alt="Follow gabrieldejesus" src="https://img.shields.io/static/v1?label=Follow&message=gabrieldejesus&style=for-the-badge&color=FDA912&labelColor=222222" />
+  </a>
+</p>
+
+## 🕹 Test here
+
 https://shophub.vercel.app
 
-## 💻 Configuation for Development
+## 🛠 Getting started
 
 Windows:
 
 You can clone the repository through CMD (Command Prompt) just by typing:
 
 ```sh
-git clone https://github.com/devgabrieldejesus/shophub
+git clone https://github.com/gabrieldejesus/shophub
 ```
 
 or download the zip from the green button at the beginning of the repository
 
-![](public/clone.png)
+<img src="https://i.ibb.co/3mLnKMH/clone.png" alt="Download zip" border="0">
 
-![](public/clone-zip.png)
+<img src="https://i.ibb.co/3M5CXKm/clone-zip.png" alt="Download zip" border="0">
+
+## 💻 Configuration for development
+
+Open the main project folder and run the command ``yarn`` Add all environment variables and then just run the command ``yarn dev`` and view the project at: ``http://localhost: 3000``
 
 ## 🗃 Release history
 
-* 0.1.0
-    * Project finalized and studying the possibility of adding new resources
-    * The first suitable launch
-* 0.0.1
-    * Work in progress
+- 0.1.0
+  - Project finalized and studying the possibility of adding new resources
+  - The first suitable lauch
+- 0.0.1
+  - Work in progress
 
 ## 📝 Meta
 
-Gabriel de Jesus – [My portfolio](https://www.gabrieldesenvolvedor.com) – oi@gabrieldesenvolvedor.com
+Gabriel de Jesus – [My portfolio](https://gabrieldesenvolvedor.com) – devgabrieldejesus@gmail.com
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-[https://github.com/devgabrieldejesus/shophub](https://github.com/devgabrieldejesus/)
+[https://github.com/gabrieldejesus/shophub](https://github.com/gabrieldejesus)
 
-## 🚀 Contributing
+## 🚀 Contribution
 
-1. Fork it (<https://github.com/devgabrieldejesus/shophub/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+1. Make the _fork_ of the project (<https://github.com/gabrieldejesus/shophub/fork>)
+2. Create a _branch_ for your modification (`git checkout -b my-new-resource`)
+3. Do _commit_ (`git commit -am 'Adding a new resource ...'`)
+4. _Push_ (`git push origin my-new-feature`)
+5. Create a new _Pull Request_
+
+**After your pull request is merged**, you can safely delete your branch.
 
 ---
-
-_Português_
-
-# ShopHub
-
-👕 Uma pequena loja com alguns produtos cadastrados que fiz para exercitar meus novos conhecimentos com o nextjs.
-
-`Visualização da Web`
-![](public/web-preview.gif)
-
-## 🕹 Teste aqui
-https://shophub.vercel.app
-
-## 💻 Configuração para desenvolvimento
-
-Windows:
-
-Você pode clonar o repositório por meio do CMD (Prompt de Comando) apenas digitando:
-
-```sh
-git clone https://github.com/devgabrieldejesus/shophub
-```
-
-ou baixe o zip do botão verde no início do repositório
-
-![](public/clone.png)
-
-![](public/clone-zip.png)
-
-## 🗃 Histórico de lançamento
-
-* 0.1.0
-    * Projeto finalizado e estudando a possibilidade de agregar novos recursos
-    * O primeiro lançamento adequado
-* 0.0.1
-    * Trabalho em progresso
-
-## 📝 Meta
-
-Gabriel de Jesus - [Meu portfólio](https://www.gabrieldesenvolvedor.com) - oi@gabrieldesenvolvedor.com
-
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
-
-[https://github.com/devgabrieldejesus/shophub](https://github.com/devgabrieldejesus/)
-
-## 🚀 Contribuição
-
-1. Fork it (<https://github.com/devgabrieldejesus/shophub/fork>)
-2. Crie seu branch de recurso (`git checkout -b feature / fooBar`)
-3. Faça commit de suas alterações (`git commit -am 'Add some fooBar'`)
-4. Empurre para o branch (`git push origin feature / fooBar`)
-5. Crie uma nova solicitação pull
